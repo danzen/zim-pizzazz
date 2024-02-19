@@ -9,11 +9,14 @@ makePattern("slants").center().bot();
 
 ![image](https://github.com/danzen/zim-pizzazz/assets/380281/16d42def-57bd-49b2-ba12-e63a73900a74)
 
+<h2>CDN</h2>
 <p>ZIM and Pizzazz can be imported with JavaScript modules - see https://zimjs.com/code for template
 
 ```javascript
 import zim from "https://zimjs.org/cdn/016/zim_pizzazz";
 ```
+
+<h2>NPM</h2>
 <p>Or use the <a href=https://www.npmjs.com/package/@zimjs/pizzazz>@zimjs/pizzazz</a> NPM module - the code which is saved in this repository.</p>
 
 ```javascript
