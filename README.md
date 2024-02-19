@@ -1,5 +1,5 @@
 ![pizzazz](https://github.com/danzen/zim-pizzazz/assets/380281/3ba9536e-e580-42f9-a0f8-8eeb0c8c26d2)
-<p>ZIM Pizzazz helper module to add shapes, icons and patterns for the ZIM JavaScript Canvas Framework at https://zimjs.com.  The documentation can be found at https://zimjs.com/docs.html under the helper modules</p>
+<p>ZIM Pizzazz helper module to add shapes, icons and patterns for the ZIM JavaScript Canvas Framework at https://zimjs.com.  The documentation can be found at https://zimjs.com/docs.html under the helper modules.</p>
 
 ```javascript
 makeShape("cloud",white).center();
