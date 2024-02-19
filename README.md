@@ -17,6 +17,7 @@ import zim from "https://zimjs.org/cdn/016/zim_pizzazz";
 <p>Or use the <a href=https://www.npmjs.com/package/@zimjs/pizzazz>@zimjs/pizzazz</a> NPM module - the code which is saved in this repository.</p>
 
 ```javascript
+import zim from "zimjs"
 import { makeShape, makeIcon, makePattern } from "@zimjs/pizzazz"
 ```
 
