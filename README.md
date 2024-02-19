@@ -23,7 +23,7 @@ import zim from "https://zimjs.org/cdn/016/zim_pizzazz";
 import zim from "zimjs"
 import { makeShape, makeIcon, makePattern } from "@zimjs/pizzazz"
 ```
-
+<h2>ZIM</h2>
 <p>ZIM is a general canvas framework with many conveniences, components and controls - code creativity!</p>
 <p>See the ZIM repository at https://github.com/danzen/zimjs for information on ZIM and open source license, etc.</p>
 
