@@ -1,0 +1,24 @@
+{
+  "name": "@zimjs/pizzazz",
+  "version": "1.0.0",
+  "description": "Pizzazz provides shapes, icons for the ZIM JavaScript Canvas Framework",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pizzazz",
+    "shapes",
+    "icons",
+    "patterns",
+    "zimjs",
+    "zim",
+    "vectors"
+  ],
+  "author": "Dr Abstract",
+  "license": "MIT",
+  "devDependencies": {
+    "zimjs": "^16.0.2"
+  }
+}
