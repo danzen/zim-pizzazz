@@ -49,6 +49,8 @@ pizzazz.shapes = {
 }
 
 pizzazz.makeShape = function(type, color, width, height) {
+    var sig = "type, color, width, height";
+	var duo; if (duo = zob(pizzazz.makeShape, arguments, sig)) return duo;
     if (zot(type)) type = "cloud";		
     if (zot(color)) color = "black";
     type = zik(type);
@@ -150,7 +152,8 @@ pizzazz.icons = {
 }
 
 pizzazz.makeIcon = function(type, color, scale, multi, multiAlpha, multiScale, multiX, multiY, skewX, skewY, backing) {
-    var duo; if (duo = zob(pizzazz.makeIcon, arguments)) return duo;
+    var sig = "type, color, scale, multi, multiAlpha, multiScale, multiX, multiY, skewX, skewY, backing";
+	var duo; if (duo = zob(pizzazz.makeIcon, arguments, sig)) return duo;
     if (zot(type)) type = "play";		
     if (zot(color)) color = "black";
     if (zot(scale)) scale = 1;
@@ -240,7 +243,8 @@ pizzazz.listIcons = function() {
 
 // pixels, noise, dots, stripes, slants, hatch, plaid, bling
 pizzazz.makePattern = function(type, colors, size, cols, rows, spacingH, spacingV, interval, startPaused, backgroundColor, gradient, cache) {
-    var duo; if (duo = zob(pizzazz.makePattern, arguments)) return duo;
+    var sig = "type, colors, size, cols, rows, spacingH, spacingV, interval, startPaused, backgroundColor, gradient, cache";
+	var duo; if (duo = zob(pizzazz.makePattern, arguments, sig)) return duo;
     if (zot(type)) type = "pixels";
     type = type.toLowerCase();
     if (zot(colors)) colors = "black";

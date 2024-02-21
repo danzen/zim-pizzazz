@@ -1,6 +1,6 @@
 {
   "name": "@zimjs/pizzazz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Pizzazz provides shapes, icons for the ZIM JavaScript Canvas Framework",
   "main": "index.js",
   "types": "index.d.ts",
