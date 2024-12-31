@@ -82,10 +82,25 @@ pizzazz.makeShape = function(type, color, width, height) {
     shape.setBounds(rect.x, rect.y, rect.width, rect.height);
     shape.regX = rX;
     shape.regY = rY;
-    shape.graphics.f(color).p(data[2]);
+    var fill = shape.graphics.f(color).command;
+    shape.graphics.p(data[2]);
     shape.scaleX = scaleX;
     shape.scaleY = scaleY;
     shape.type = type;
+
+    shape.dye = function(color) {
+        fill.style = color;
+    }
+    Object.defineProperty(shape, 'color', {
+        get: function() {
+            return color;
+        },
+        set: function(value) {
+            color = value;
+            shape.dye(value);
+        }
+    });
+
     return shape;
 }
 
@@ -183,7 +198,8 @@ pizzazz.makeIcon = function(type, color, scale, multi, multiAlpha, multiScale, m
     shape.regY = rY;
     shape.skewX = skewX;
     shape.skewY = skewY;
-    shape.graphics.f(color).p(data[2]);
+    var fill = shape.graphics.f(color).command;
+    shape.graphics.p(data[2]);
     shape.scaleX = scale;
     shape.scaleY = scale;
 
@@ -206,6 +222,18 @@ pizzazz.makeIcon = function(type, color, scale, multi, multiAlpha, multiScale, m
         backing.centerReg();
         container.addChildAt(backing);
     }
+    container.dye = function(color) {
+        fill.style = color;
+    }
+    Object.defineProperty(container, 'color', {
+        get: function() {
+            return color;
+        },
+        set: function(value) {
+            color = value;
+            container.dye(value);
+        }
+    });
     container.mouseChildren = false;
     return container;
 }
