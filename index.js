@@ -162,7 +162,16 @@ pizzazz.icons = {
     edit:[[1,1],[0,0],"AigA2IBqBqIiOAmgAiPAmICxiwIBoBoIiwCxgAAzibIApgqIBpBpIgqApg", new createjs.Rectangle(-19.7,-19.8,39.5,39.7)],
     magnify:[[1,1],[0,0],"AAnBcQgnAagxAAIgBAAQhDgBgvgwQgxgwgBhCIAAAAQAAhFAwgwQAxgwBEAAQBDgBAwAxQAwAwAABFQAAAtgVAiIB6B5Ig4A4gAh0hwQgcAbAAAoQAAAnAcAZIABAAQAcAcAmABIABAAQAnAAAZgcIABAAQAbgaAAgnQAAgogbgbIgBgBQgZgcgoABIAAAAQgoAAgbAcg", new createjs.Rectangle(-21.5,-21.1,43.1,42.3)],
     checkmark:[[1,1],[0,0],"AjPAZIA0hDIBxBXICzjKIBHA3IjxEFg", new createjs.Rectangle(-21.5,-18.1,43.1,38)],
-    
+    angle:[[1,1],[-2,0],"AiNC5IC4i5Ii4i5IAxgxIDqDqIjqDrg", new createjs.Rectangle(-15,-22,30,44)],
+    garbage:[[1,1],[0,0],"ABFDjIAAlZIBhAAIgbFZgAgrDjIAAlZIBWAAIAAFZgAiKDjIgblZIBhAAIAAFZgAi2iNIAAg3IBeAAIAAgeICwAAIAAAeIBfAAIAAA3g", new createjs.Rectangle(-18,-22,36,44)],
+    move:[[1,1],[0,0],"AhcCqIA4AAIABhmIBHAAIAABmIA5AAIhdBdgACqAkIhmAAIAAhHIBmgBIAAg4IBdBcIhdBdgAkGAAIBdhcIAAA4IBkABIAABHIhlAAIAAA4gAgjhFIAAhlIg4AAIBbhcIBdBcIg5AAIAABlg", new createjs.Rectangle(-26,-26,52,52)],
+    scale:[[1,1],[0,0],"ABTDWIAngnIhShUIAzgzIBTBTIAognIAACCgAjVDWIAAiDIAnAoIBUhTIAzAzIhTBTIAnAogAAohaIBThTIgngoICCAAIAACDIgognIhTBSgAith6IgoAnIAAiCICDAAIgoAoIBTBTIgzAzg", new createjs.Rectangle(-22,-22,44,44)],
+    rotate2:[[1,1],[0,0],"AgbDMQhEgJgygyQg8g9gBhUQAAhHAqg1IAxAeIgCAEQgfAnABAzQAAA9AqArQAiAhAsAIIAAhSIByBqIhyBrgACDBIQASghABgnQAAg9gsgsQgegegmgJIAABTIhxhrIBxhrIAABIQA9ALAvAuQA8A9AABVQABA2gaAuIgBACg", new createjs.Rectangle(-20,-26,40,52)],
+    save:[[1,1],[0,0],"AinDZQgdAAgKgKQgLgLAAgcIAAlPQAAgcALgLQAKgKAdAAID0AAQANAABABAQA/A/AAAMIAAD1QABAcgLALQgLAKgcAAgAgwAPIhKACIB6CIIB7iIIhLgCIAAiVIhfAAg", new createjs.Rectangle(-20,-21,40,42)],
+    mark:[[1,1],[0,0],"AACBNIiDB8IAAmRIEEAAIAAGRg", new createjs.Rectangle(-12,-19,24,38)],
+    link:[[1,1],[0,0],"AhADkQhEAAgxgwQgwgxAAhEQAAhEAwgwQAlglAxgIQAJguAjgiQAxgxBDAAQBEAAAxAxQAwAwAABEQAABEgwAwQglAlgwAJQgKAtgjAjQgxAwhDAAIAAAAgAiRgRQgiAgAAAwQAAAvAiAiQAhAiAwAAQAwAAAggiQAUgTAIgYQg2gGgpgpQgqgrgFg5QgbAIgUAVgAAyAzQgEgogegcQgbgdglgEQADAoAeAdQAbAcAmAEIAAAAgAgPiPQgUATgIAYQA2AGApApQArArAEA5QAbgIAUgUQAighAAgwQAAgvgigiQghgigwAAQgwAAggAig", new createjs.Rectangle(-22,-22,44,44)],
+    chart:[[1,1],[0,0],"AjbDcIAAm3IG3AAIAAG3gACigqIAADeIASAAIAAlnIlnAAIAAFnIAPAAIAAiVIBGAAIAACVIAPAAIAAj9IBGAAIAAD9IAOAAIAAi7IBGAAIAAC7IARAAIAAjeg", new createjs.Rectangle(-22,-22,44,44)],
+    pic:[[1,1],[0,0],"AjbDcIAAm3IG3AAIAAG3gAizAoICqhzIBRBlIBshQIAAh9IlnAAg", new createjs.Rectangle(-22,-22,44,44)],
 
 }
 
